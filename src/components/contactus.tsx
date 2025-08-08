@@ -48,15 +48,15 @@ const ContactSection: React.FC = () => {
                         CONTACT US
                     </h2>
                     <p className="text-[14px] md:text-[16px] text-gray-600 max-w-2xl mx-auto">
-                        We’d love to hear from you. Reach out today and let us know how we can help.
+                        We&apos;d love to hear from you. Reach out today and let us know how we can help.
                     </p>
                 </div>
 
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
                     <div className="flex flex-col h-full">
                         <div className="bg-[#7C9343] rounded-3xl flex flex-col justify-center p-4 md:p-8 min-h-[300px] md:min-h-[350px] shadow-md">
-                            <div className="mb-4 text-[10px] md:text-xs tracking-widest text-white opacity-80">LET'S TALK</div>
-                            <div className="md:text-2xl text-[18px] font-semibold text-white mb-8">Connect With an Expert Now</div>
+                        <div className="mb-4 text-[10px] md:text-xs tracking-widest text-white opacity-80">LET&apos;S TALK</div>
+                        <div className="md:text-2xl text-[18px] font-semibold text-white mb-8">Connect With an Expert Now</div>
                             <div className="flex flex-col gap-5 ">
                                 <div className="flex items-center gap-3">
                                     <span className="bg-white/20 rounded-lg p-2 flex items-center">
