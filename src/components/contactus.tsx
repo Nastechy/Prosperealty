@@ -69,7 +69,7 @@ const ContactSection: React.FC = () => {
                                         <Mail className="md:w-5 md:h-5 h-3 w-3 text-white" />
                                     </span>
                                     <a
-                                        href="mailto:asorealtylimted@gmail.com"
+                                        href="mailto:prosperealtycompany@gmail.com"
                                         className="text-white underline text-[14px] md:text-base hover:text-[#ffd700] transition"
                                     >
                                         prosperealtycompany@gmail.com

@@ -5,7 +5,6 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import StatsComponent from "@/components/stat";
 import VisionMissionComponent from "@/components/visionandmission";
-// import WhyChooseAsoRealty from "@/components/whychoose";
 
 
 export const metadata = {
