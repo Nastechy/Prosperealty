@@ -15,7 +15,7 @@ export default function TeamHeroSection() {
         <Image
           width={1920}
           height={800}
-          src="/house3.jpg"
+          src="/bedroom1.jpg"
           alt="Our Team background image"
           className="w-full h-full object-cover"
           priority
@@ -59,7 +59,7 @@ export default function TeamHeroSection() {
           Meet the passionate people driving our mission and innovation every day.
         </motion.p> */}
         <motion.div
-          className="w-24 h-1 bg-gradient-to-r from-[#08194A] to-red-600 mx-auto rounded-full mt-4"
+          className="w-24 h-1 bg-gradient-to-r from-[#1A1D20] to-[#7C9343] mx-auto rounded-full mt-4"
           initial={{ width: 0, opacity: 0 }}
           animate={{ width: 96, opacity: 1 }}
           transition={{ duration: 0.7, delay: 1.05 }}

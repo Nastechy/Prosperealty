@@ -54,15 +54,15 @@ const ContactSection: React.FC = () => {
 
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
                     <div className="flex flex-col h-full">
-                        <div className="bg-[#902923] rounded-3xl flex flex-col justify-center p-4 md:p-8 min-h-[300px] md:min-h-[350px] shadow-md">
-                            <div className="mb-4 text-[10px] md:text-xs tracking-widest text-white opacity-80">LETS TALK</div>
-                            <div className="md:text-2xl text-[18px] font-semibold text-white mb-8">Speak With Our Expert</div>
+                        <div className="bg-[#7C9343] rounded-3xl flex flex-col justify-center p-4 md:p-8 min-h-[300px] md:min-h-[350px] shadow-md">
+                            <div className="mb-4 text-[10px] md:text-xs tracking-widest text-white opacity-80">LET'S TALK</div>
+                            <div className="md:text-2xl text-[18px] font-semibold text-white mb-8">Connect With an Expert Now</div>
                             <div className="flex flex-col gap-5 ">
                                 <div className="flex items-center gap-3">
                                     <span className="bg-white/20 rounded-lg p-2 flex items-center">
                                         <Phone className="md:w-5 md:h-5 h-3 w-3 text-white" />
                                     </span>
-                                    <span className="text-white text-[14px] md:text-base">08037616518, 08034109687</span>
+                                    <span className="text-white text-[14px] md:text-base"> +234 813 524 6089 </span>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <span className="bg-white/20 rounded-lg p-2 flex items-center">
@@ -72,22 +72,23 @@ const ContactSection: React.FC = () => {
                                         href="mailto:asorealtylimted@gmail.com"
                                         className="text-white underline text-[14px] md:text-base hover:text-[#ffd700] transition"
                                     >
-                                        asorealtylimted@gmail.com
-                                    </a>                                </div>
+                                        prosperealtycompany@gmail.com
+                                    </a>
+                                </div>
                                 <div className="flex items-center gap-3">
                                     <span className="bg-white/20 rounded-lg p-2 flex items-center">
                                         <MapPin className="md:w-5 md:h-5 h-3 w-3 text-white" />
                                     </span>
-                                    <span className="text-white text-[14px] md:text-base">C1, Amaka Mall, 9 San Zangon Daura Street, Guzape-Abuja</span>
+                                    <span className="text-white text-[14px] md:text-base">Suite C4, Victory Plaza Onitsha Crescent Area 11 Garki Abuja  </span>
                                 </div>
                             </div>
                         </div>
                         <div className="text-center mt-10 md:mt-20 hidden md:block " >
                             <div className="inline-flex items-center space-x-2 bg-gray-100 px-6 py-3 rounded-full ">
                                 <div className="flex -space-x-2">
-                                    <div className="w-8 h-8 bg-red-500 rounded-full border-2 border-white"></div>
-                                    <div className="w-8 h-8 bg-blue-500 rounded-full border-2 border-white"></div>
-                                    <div className="w-8 h-8 bg-green-500 rounded-full border-2 border-white"></div>
+                                    <div className="w-8 h-8 bg-amber-400 rounded-full border-2 border-white"></div>
+                                    <div className="w-8 h-8 bg-amber-800 rounded-full border-2 border-white"></div>
+                                    <div className="w-8 h-8 bg-black rounded-full border-2 border-white"></div>
                                 </div>
                                 <span className="text-[12px] font-medium text-gray-700">
                                     Join 1000+ satisfied customers
@@ -161,7 +162,7 @@ const ContactSection: React.FC = () => {
                             <button
                                 onClick={handleSubmit}
                                 disabled={isSubmitting}
-                                className="w-full bg-gradient-to-r from-[#981314] cursor-pointer to-red-700 text-white font-bold py-3 px-8 rounded-xl hover:from-red-700 hover:to-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center space-x-2"
+                                className="w-full bg-gradient-to-r from-[#7C9343] cursor-pointer to-black text-white font-bold py-3 px-8 rounded-xl hover:from-black hover:to-[#7C9343] focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transform hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none flex items-center justify-center space-x-2"
                             >
                                 {isSubmitting ? (
                                     <>

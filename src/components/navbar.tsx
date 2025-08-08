@@ -10,9 +10,9 @@ import { usePathname } from "next/navigation";
 
 const navLinks = [
     { label: "Home", route: "/" },
-    { label: "Properties", route: "/properties" },
     { label: "About Us", route: "/aboutUs" },
     { label: "Our Team", route: "/ourTeam" },
+    { label: "Properties", route: "/properties" },
     { label: "Contact Us", route: "/contactUs" },
 ];
 
@@ -31,23 +31,23 @@ export function Navbar() {
                 <div className="flex items-start justify-start">
                     <Link href="/">
                         <Image
-                            src="/asologo.png"
-                            alt="Aso company Logo"
-                            width={150}
-                            height={120}
-                            className="object-contain rounded-full md:w-[150px] w-[100px]"
+                            src="/prosperealty.jpg"
+                            alt="prosperealty company Logo"
+                            width={180}
+                            height={150}
+                            className="object-contain rounded-full md:w-[200px] w-[150px]"
                             priority
                         />
                     </Link>
                 </div>
-                <div className="hidden md:flex items-center space-x-16 font-[500] text-[14px]">
+                <div className="hidden md:flex items-center space-x-16 font-[500] text-[15px]">
                     {navLinks.map(({ label, route }) => (
                         <Link
                             key={route}
                             href={route}
                             className={cn(
                                 "transition-transform font-bold",
-                                isActive(route) ? "text-[#981314]" : "text-[#08194A] hover:border-[#08194A] hover:scale-110 hover:border hover:px-4 hover:py-2 hover:rounded-[4px]"
+                                isActive(route) ? "text-[#7C9343]" : "text-[#1A1D20] hover:border-black hover:scale-110 hover:border hover:px-4 hover:py-2 hover:rounded-[4px]"
                             )}
                         >
                             {label}
@@ -57,11 +57,12 @@ export function Navbar() {
                 {/* Desktop CTA */}
                 <div className="hidden lg:flex">
                     <Link href="/properties" className="w-full">
-                        <Button className="bg-[#981314] hover:bg-[#08194A] cursor-pointer text-white rounded-[5px] px-3 font-bold w-full">
-                            Explore Properties
+                        <Button className="bg-[#7C9343] hover:bg-black cursor-pointer text-white rounded-[5px] px-3 font-bold w-full">
+                            Discover Properties
                         </Button>
                     </Link>
                 </div>
+
                 {/* Mobile menu button */}
                 <button
                     className="md:hidden text-white p-2 focus:outline-none mr-6"
@@ -86,7 +87,7 @@ export function Navbar() {
                                 href={route}
                                 className={cn(
                                     "transition-transform px-4 font-bold",
-                                    isActive(route) ? "text-[#981314]" : "text-white hover:scale-110"
+                                    isActive(route) ? "text-[#7C9343]" : "text-white hover:scale-110"
                                 )}
                                 onClick={() => setIsMenuOpen(false)}
                             >
@@ -95,11 +96,11 @@ export function Navbar() {
                         ))}
                         <div className="pt-2">
                             <Button
-                                className="bg-[#981314] hover:bg-[#08194A] cursor-pointer text-white rounded-[10px] px-3 font-bold w-full"
+                                className="bg-[#7C9343] hover:bg-[#1A1D20] cursor-pointer text-white rounded-[10px] px-3 font-bold w-full"
                                 asChild
                             >
                                 <Link href="/properties" onClick={() => setIsMenuOpen(false)}>
-                                    Explore Properties
+                                    Discover Properties
                                 </Link>
                             </Button>
                         </div>

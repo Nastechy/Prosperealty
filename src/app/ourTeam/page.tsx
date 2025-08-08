@@ -6,32 +6,31 @@ import TeamHeroSection from "@/components/pageSections/TeamHeroSection";
 
 
 export const metadata = {
-  title: "Our Team - Aso Realty",
-  description: "Meet the passionate people driving our mission and innovation every day.",
+  title: "Our Team - Prosperealty",
+  description: "Meet the dedicated professionals behind Prosperealty, committed to helping you secure the best lands and properties.",
   alternates: {
-    canonical: "https://www.asorealty.com/ourTeam",
+    canonical: "https://www.prosperealty.com/ourTeam",
   },
   openGraph: {
-    title: "Our Team - Aso Realty",
-    description: "Meet the passionate people driving our mission and innovation every day.",
-    url: "https://www.asorealty.com/ourTeam",
+    title: "Our Team - Prosperealty",
+    description: "Meet the dedicated professionals behind Prosperealty, committed to helping you secure the best lands and properties.",
+    url: "https://www.prosperealty.com/ourTeam",
     images: [
       {
-        url: "/asologo.png",
+        url: "/prosperealtylogo.png",
         width: 800,
         height: 600,
-        alt: "Aso Realty Logo",
+        alt: "Prosperealty Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Team - Aso Realty",
-    description: "Meet the passionate people driving our mission and innovation every day.",
-    images: ["/asologo.png"],
+    title: "Our Team - Prosperealty",
+    description: "Meet the dedicated professionals behind Prosperealty, committed to helping you secure the best lands and properties.",
+    images: ["/prosperealtylogo.png"],
   },
 };
-
 
 export default function OurTeamPage() {
   return (

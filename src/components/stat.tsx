@@ -22,34 +22,34 @@ const stats: Stat[] = [
   {
     id: "houses",
     target: 500,
-    label: "Houses Sold",
-    color: "text-amber-800",
-    bgColor: "bg-amber-50",
-    borderColor: "border-amber-200"
+    label: "Properties Delivered",
+    color: "text-green-700",
+    bgColor: "bg-green-50",
+    borderColor: "border-green-200"
   },
   {
     id: "states",
     target: 5,
-    label: "Operating in 5 States",
-    color: "text-emerald-500",
-    bgColor: "bg-emerald-50",
-    borderColor: "border-emerald-200"
-  },
-  {
-    id: "trusted",
-    target: 1000,
-    label: "Trusted by Families",
-    color: "text-blue-500",
+    label: "States Covered",
+    color: "text-blue-700",
     bgColor: "bg-blue-50",
     borderColor: "border-blue-200"
   },
   {
+    id: "trusted",
+    target: 1000,
+    label: "Happy Clients",
+    color: "text-purple-700",
+    bgColor: "bg-purple-50",
+    borderColor: "border-purple-200"
+  },
+  {
     id: "experience",
     target: 10,
-    label: "Years of Experience",
-    color: "text-white",
-    bgColor: "bg-blue-950",
-    borderColor: "border-blue-900"
+    label: "Years of Excellence",
+    color: "text-orange-700",
+    bgColor: "bg-orange-50",
+    borderColor: "border-orange-200"
   }
 ];
 
@@ -232,7 +232,7 @@ const StatsComponent: React.FC = () => {
                     {stats.map((_, dotIdx) => (
                       <button
                         key={dotIdx}
-                        className={`w-1 h-1 rounded-full transition-colors duration-300 ${dotIdx === currentIndex ? "bg-[#981314]" : "bg-gray-300"}`}
+                        className={`w-1 h-1 rounded-full transition-colors duration-300 ${dotIdx === currentIndex ? "bg-[#7C9343]" : "bg-gray-300"}`}
                         onClick={() => setCurrentIndex(dotIdx)}
                         aria-label={`Go to stat ${dotIdx + 1}`}
                         style={{ outline: "none", border: "none" }}

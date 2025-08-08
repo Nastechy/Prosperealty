@@ -52,7 +52,7 @@ export default function AllPropertiesPage() {
                         <Image
                             width={1920}
                             height={800}
-                            src="/image3.jpg"
+                            src="/bedroom2.jpg"
                             alt="Properties Background image"
                             className="w-full h-full object-cover"
                             priority
@@ -95,7 +95,7 @@ export default function AllPropertiesPage() {
                             Browse all available properties below.
                         </motion.p>
                         <motion.div
-                            className="w-24 h-1 bg-gradient-to-r from-[#08194A] to-red-600 mx-auto rounded-full mt-4"
+                            className="w-24 h-1 bg-gradient-to-r from-[#1A1D20] to-[#7C9343] mx-auto rounded-full mt-4"
                             initial={{ width: 0, opacity: 0 }}
                             animate={{ width: 96, opacity: 1 }}
                             transition={{ duration: 0.7, delay: 1.05 }}
@@ -151,7 +151,7 @@ export default function AllPropertiesPage() {
                                     <div className="flex items-center justify-between">
                                         <button
                                             onClick={() => setSelectedProperty(property)}
-                                            className="bg-[#981314] text-white cursor-pointer px-4 py-2 rounded-[3px] text-[10px] font-bold hover:bg-[#08194A] transition-colors duration-200"
+                                            className="bg-[#7C9343] text-white cursor-pointer px-4 py-2 rounded-[3px] text-[10px] font-bold hover:bg-[#1A1D20] transition-colors duration-200"
                                         >
                                             View Details
                                         </button>
@@ -164,7 +164,7 @@ export default function AllPropertiesPage() {
                     {showSeeMore && (
                         <div className="flex justify-center mt-8 ">
                             <button
-                                className="block sm:hidden bg-[#981314] text-white px-6 py-2 rounded-[3px] font-bold text-[11px] hover:bg-[#08194A] transition-colors duration-200"
+                                className="block sm:hidden bg-[#7C9343] text-white px-6 py-2 rounded-[3px] font-bold text-[11px] hover:bg-[#1A1D20] transition-colors duration-200"
                                 onClick={() => setVisibleCount((prev) => prev + 4)}
                             >
                                 See More
@@ -212,11 +212,11 @@ export default function AllPropertiesPage() {
                                     <div className="bg-gray-50 rounded-lg p-4 border border-gray-100 mt-auto">
                                         <div className="font-semibold mb-2">Contact Agent</div>
                                         <div className="flex items-center mb-1">
-                                            <Mail className="w-4 h-4 mr-2 text-[#981314]" />
+                                            <Mail className="w-4 h-4 mr-2 text-[#7C9343]" />
                                             <span className="text-gray-800 text-sm">asorealtylimted@gmail.com</span>
                                         </div>
                                         <div className="flex items-center">
-                                            <Phone className="w-4 h-4 mr-2 text-[#981314]" />
+                                            <Phone className="w-4 h-4 mr-2 text-[#7C9343]" />
                                             <span className="text-gray-800 text-sm">08037616518, 08034109687</span>
                                         </div>
                                     </div>

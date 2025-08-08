@@ -27,7 +27,7 @@ const PropertyGallery: React.FC<GalleryProps> = ({ images }) => {
                         src={img}
                         alt="Thumbnail"
                         className={`h-14 w-16 object-cover rounded-md border-2 cursor-pointer transition
-              ${main === img ? "border-[#981314] shadow" : "border-transparent"}
+              ${main === img ? "border-[#7C9343] shadow" : "border-transparent"}
             `}
                         onClick={() => setMain(img)}
                         style={{ opacity: main === img ? 1 : 0.6 }}

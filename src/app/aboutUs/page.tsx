@@ -2,34 +2,37 @@
 import React from "react";
 import About from "@/components/aboutContent";
 import Footer from "@/components/footer";
-import VisionMissionComponent from "@/components/visionandmission";
 import AboutHeroSection from "@/components/pageSections/AboutHeroSection";
+import WhyChooseProspeRealty from "@/components/whychoose";
 
 
 export const metadata = {
-  title: "About Us - Aso Realty",
-  description: "Learn more about our journey, values, and what drives us to serve you better every day.",
+  title: "About Us - Prosperealty",
+  description:
+    "Learn more about Prosperealty — your trusted partner for verified lands and select property investments.",
   alternates: {
-    canonical: "https://www.asorealty.com/aboutUs",
+    canonical: "https://www.prosperealty.com/aboutUs",
   },
   openGraph: {
-    title: "About Us - Aso Realty",
-    description: "Learn more about our journey, values, and what drives us to serve you better every day.",
-    url: "https://www.asorealty.com/aboutUs",
+    title: "About Us - Prosperealty",
+    description:
+      "Learn more about Prosperealty — your trusted partner for verified lands and select property investments.",
+    url: "https://www.prosperealty.com/aboutUs",
     images: [
       {
-        url: "/asologo.png",
+        url: "/prosperealtylogo.png",
         width: 800,
         height: 600,
-        alt: "Aso Realty Logo",
+        alt: "Prosperealty Logo",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us - Aso Realty",
-    description: "Learn more about our journey, values, and what drives us to serve you better every day.",
-    images: ["/asologo.png"],
+    title: "About Us - Prosperealty",
+    description:
+      "Learn more about Prosperealty — your trusted partner for verified lands and select property investments.",
+    images: ["/prosperealtylogo.png"],
   },
 };
 
@@ -41,7 +44,7 @@ export default function AboutPage() {
         <AboutHeroSection />
         <div className="mx-2 my-5 md:m-10 ">
           <About />
-          <VisionMissionComponent />
+          <WhyChooseProspeRealty />
         </div>
         <Footer />
       </div>

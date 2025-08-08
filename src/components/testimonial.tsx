@@ -58,7 +58,7 @@ export default function TestimonialSection() {
                     <p className="text-gray-600 text-base md:text-lg mb-3 max-w-2xl mx-auto">
                         Real experiences, honest feedback, and the stories that make us proud to serve you every day.
                     </p>
-                    <div className="w-16 h-1 bg-gradient-to-r from-red-500 to-[#08194A] mx-auto rounded-full"></div>
+                    <div className="w-16 h-1 bg-gradient-to-r from-red-500 to-[#1A1D20] mx-auto rounded-full"></div>
                 </motion.div>
 
                 {/* Cards */}
@@ -71,7 +71,7 @@ export default function TestimonialSection() {
                 flex-1
                 flex flex-col items-center justify-center
                 px-4 py-8
-                shadow-[0_10px_32px_0_#08194A66]
+                shadow-[0_10px_32px_0_#00000066]
                 transition-all duration-300
                 ${cardsPerView === 1
                                     ? "min-w-0 max-w-full"
@@ -85,8 +85,8 @@ export default function TestimonialSection() {
                                 maxWidth: cardsPerView > 1 ? "none" : "100%",
                                 boxShadow:
                                     idx === 1
-                                        ? "0 10px 32px 0 #08194Aaa"
-                                        : "0 2px 12px 0 #08194A22",
+                                        ? "0 10px 32px 0 #000000aa"
+                                        : "0 2px 12px 0 #00000022",
                             }}
                             animate={{
                                 y: cardsPerView === 1 ? 0 : idx === 1 ? -10 : 0,
@@ -106,8 +106,8 @@ export default function TestimonialSection() {
                             key={idx}
                             onClick={() => setStartIdx(idx)}
                             className={`h-3 w-3 rounded-full transition-all duration-300 ${startIdx === idx
-                                ? "bg-[#08194A] scale-125"
-                                : "bg-[#08194A]/20"
+                                ? "bg-[#1A1D20] scale-125"
+                                : "bg-[#1A1D20]/20"
                                 }`}
                             aria-label={`Go to testimonials starting at ${idx + 1}`}
                         />
@@ -142,8 +142,8 @@ function TestimonialCard({
             <p className="text-gray-800 text-center mb-4 text-[15px] italic font-semibold max-w-[190px] md:max-w-[160px] leading-relaxed">
                 “{testimonial.text}”
             </p>
-            <div className="font-extrabold text-[#08194A] text-base">{testimonial.name}</div>
-            <div className="text-xs font-semibold text-[#981314] mb-2 tracking-wider">{testimonial.role}</div>
+            <div className="font-extrabold text-[#1A1D20] text-base">{testimonial.name}</div>
+            <div className="text-xs font-semibold text-[#7C9343] mb-2 tracking-wider">{testimonial.role}</div>
         </div>
     );
 }

@@ -8,18 +8,18 @@ import { MapPin } from "lucide-react";
 const heroSlides = [
     {
         id: 1,
-        image: "/image22.jpg",
-        title: "Find Your Dream Home with Aso Realty Limited",
+        image: "/bedroom1.jpg",
+        title: "Your Pathway to Prosperity Starts Here",
     },
     {
         id: 2,
-        image: "/Heroland.jpg",
-        title: "Own genuine Land today with Aso Realty ",
+        image: "/bedroom2.jpg",
+        title: "Secure Genuine Land & Property ",
     },
     {
         id: 3,
-        image: "/house33.jpg",
-        title: "Invest wisely with Aso Realty Limited",
+        image: "/bedroom3.jpg",
+        title: "Smart Investments, Lasting Value",
     },
 ];
 
@@ -70,36 +70,36 @@ export default function HeroSlider() {
     const mapsUrl = "https://www.google.com/maps/search/?api=1&query=C1,+Amaka+Mall,+9+San+Zangon+Daura+Street,+Guzape,+Abuja,+Nigeria,+900211";
 
     const imageVariants = {
-        initial: { 
-            opacity: 0, 
+        initial: {
+            opacity: 0,
             scale: 1.05,
             filter: "blur(2px)"
         },
-        animate: { 
-            opacity: 1, 
+        animate: {
+            opacity: 1,
             scale: 1,
             filter: "blur(0px)"
         },
-        exit: { 
-            opacity: 0, 
+        exit: {
+            opacity: 0,
             scale: 0.98,
             filter: "blur(1px)"
         }
     };
 
     const contentVariants = {
-        initial: { 
-            opacity: 0, 
+        initial: {
+            opacity: 0,
             y: 20,
             filter: "blur(1px)"
         },
-        animate: { 
-            opacity: 1, 
+        animate: {
+            opacity: 1,
             y: 0,
             filter: "blur(0px)"
         },
-        exit: { 
-            opacity: 0, 
+        exit: {
+            opacity: 0,
             y: -10,
             filter: "blur(1px)"
         }
@@ -133,12 +133,12 @@ export default function HeroSlider() {
                                     tabIndex={0}
                                     className="self-start"
                                 >
-                                    <div className="flex items-center gap-2 justify-center bg-[#981314] text-white px-4 py-2 w-fit rounded shadow-md cursor-pointer hover:scale-90 hover:bg-[#08194A] transition-all duration-300">
+                                    <div className="flex items-center gap-2 justify-center bg-[#7C9343] text-white px-4 py-2 w-fit rounded shadow-md cursor-pointer hover:scale-90 hover:bg-[#1A1D20] transition-all duration-300">
                                         <span className="flex h-5 w-5 items-center justify-center">
                                             <MapPin size={16} />
                                         </span>
                                         <span className="text-[11px] font-semibold uppercase tracking-wider">
-                                            ASO REALTY
+                                            PROSPEREALTY
                                         </span>
                                     </div>
                                 </a>
@@ -162,8 +162,8 @@ export default function HeroSlider() {
                                 initial="initial"
                                 animate="animate"
                                 exit="exit"
-                                transition={{ 
-                                    duration: 0.8, 
+                                transition={{
+                                    duration: 0.8,
                                     ease: [0.25, 0.46, 0.45, 0.94]
                                 }}
                                 className="absolute inset-0"
@@ -193,18 +193,17 @@ export default function HeroSlider() {
                                     tabIndex={0}
                                     className="self-start"
                                 >
-                                    <div className="flex items-center gap-2 justify-center bg-[#981314] text-white px-4 py-2 w-fit rounded shadow-md cursor-pointer hover:scale-90 hover:bg-[#08194A] transition-all duration-300">
+                                    <div className="flex items-center gap-2 justify-center bg-[#7C9343] text-white px-4 py-2 w-fit rounded shadow-md cursor-pointer hover:scale-90 hover:bg-[#1A1D20] transition-all duration-300">
                                         <span className="flex h-5 w-5 items-center justify-center">
                                             <MapPin size={16} />
                                         </span>
                                         <span className="text-[11px] font-semibold uppercase tracking-wider">
-                                            ASO REALTY
+                                            PROSPEREALTY
                                         </span>
                                     </div>
                                 </a>
 
-                                {/* Animated title */}
-                                <div className="relative min-h-[200px] flex items-start">
+                                <div className="relative min-h-[150px] flex items-start">
                                     <AnimatePresence mode="wait">
                                         <motion.h1
                                             key={heroSlides[currentSlide].id + "-title"}
@@ -212,8 +211,8 @@ export default function HeroSlider() {
                                             initial="initial"
                                             animate="animate"
                                             exit="exit"
-                                            transition={{ 
-                                                duration: 0.6, 
+                                            transition={{
+                                                duration: 0.6,
                                                 delay: 0.2,
                                                 ease: [0.25, 0.46, 0.45, 0.94]
                                             }}
@@ -239,11 +238,10 @@ export default function HeroSlider() {
                                 key={index}
                                 onClick={() => goToSlide(index)}
                                 disabled={isAnimating}
-                                className={`h-3 w-3 rounded-full transition-all duration-500 ${
-                                    index === currentSlide 
-                                        ? "bg-white scale-110 shadow-lg" 
-                                        : "bg-white/40 hover:bg-white/75 hover:scale-105"
-                                }`}
+                                className={`h-3 w-3 rounded-full transition-all duration-500 ${index === currentSlide
+                                    ? "bg-white scale-110 shadow-lg"
+                                    : "bg-white/40 hover:bg-white/75 hover:scale-105"
+                                    }`}
                                 aria-label={`Go to slide ${index + 1}`}
                                 tabIndex={0}
                             />

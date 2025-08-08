@@ -17,7 +17,7 @@ export default function FeaturedPropertiesSection() {
     // Helper to detect small screen
     const handleResize = () => {
       if (window.innerWidth < 768) {
-        setSliceCount(3);
+        setSliceCount(2);
       } else {
         setSliceCount(4);
       }
@@ -32,12 +32,12 @@ export default function FeaturedPropertiesSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-            Explore Our Featured Properties
+            Explore our Prime Properties
           </h2>
           <p className="text-[14px] md:text-[16px] text-gray-600 mb-2 max-w-2xl mx-auto">
-            Discover a curated selection of the finest homes and investment opportunities available now.
+            Discover carefully selected properties listings ideal for your next investment or dream development.
           </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-[#08194A] to-red-600 mx-auto rounded-full"></div>
+          <div className="w-24 h-1 bg-gradient-to-r from-[#1A1D20] to-[#7C9343] mx-auto rounded-full"></div>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -79,7 +79,7 @@ export default function FeaturedPropertiesSection() {
                 <div className="flex items-end justify-end">
                   <button
                     onClick={() => setSelectedProperty(property)}
-                    className="bg-[#981314] text-white cursor-pointer px-4 py-2 rounded-[3px] text-[10px] font-bold hover:bg-[#08194A] transition-colors duration-200"
+                    className="bg-[#7C9343] text-white cursor-pointer px-4 py-2 rounded-[3px] text-[10px] font-bold hover:bg-[#1A1D20] transition-colors duration-200"
                   >
                     View Details
                   </button>
@@ -91,8 +91,8 @@ export default function FeaturedPropertiesSection() {
 
         <div className="text-center mt-10 md:mt-16">
           <button
-            className="bg-[#981314] text-[13px] cursor-pointer text-white px-8 py-3 rounded-[5px] font-bold hover:bg-[#08194A] transition-colors duration-200"
-            onClick={() => router.push("/properties")} 
+            className="bg-[#7C9343] text-[13px] cursor-pointer text-white px-8 py-3 rounded-[5px] font-bold hover:bg-[#1A1D20] transition-colors duration-200"
+            onClick={() => router.push("/properties")}
           >
             View All Properties
           </button>
@@ -137,11 +137,11 @@ export default function FeaturedPropertiesSection() {
                 <div className="bg-gray-50 rounded-lg p-4 border border-gray-100 mt-auto">
                   <div className="font-semibold mb-2">Contact Agent</div>
                   <div className="flex items-center mb-1">
-                    <Mail className="w-4 h-4 mr-2 text-[#981314]" />
+                    <Mail className="w-4 h-4 mr-2 text-[#7C9343]" />
                     <span className="text-gray-800 text-sm">asorealtylimited@gmail.com</span>
                   </div>
                   <div className="flex items-center">
-                    <Phone className="w-4 h-4 mr-2 text-[#981314]" />
+                    <Phone className="w-4 h-4 mr-2 text-[#7C9343]" />
                     <span className="text-gray-800 text-sm">08037616518, 08034109687</span>
                   </div>
                 </div>

@@ -13,7 +13,7 @@ export default function AboutHeroSection() {
                 className="absolute inset-0 w-full h-full"
             >
                 <Image
-                    src="/house5.jpg"
+                    src="/bedroom1.jpg"
                     fill
                     alt="About Us background image"
                     className="w-full h-full object-cover"
@@ -62,7 +62,7 @@ export default function AboutHeroSection() {
                     Learn more about our journey, values, and what drives us to serve you better every day.
                 </motion.p>
                 <motion.div
-                    className="w-24 h-1 bg-gradient-to-r from-[#08194A] to-red-600 mx-auto rounded-full mt-4"
+                    className="w-24 h-1 bg-gradient-to-r from-[#1A1D20] to-[#7C9343] mx-auto rounded-full mt-4"
                     initial={{ opacity: 0, scaleX: 0.7 }}
                     animate={{ opacity: 1, scaleX: 1 }}
                     transition={{ duration: 0.7, delay: 0.5, ease: "easeOut" }}

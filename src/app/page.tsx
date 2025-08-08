@@ -5,34 +5,34 @@ import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import StatsComponent from "@/components/stat";
 import VisionMissionComponent from "@/components/visionandmission";
-import WhyChooseAsoRealty from "@/components/whychoose";
+// import WhyChooseAsoRealty from "@/components/whychoose";
 
 
 export const metadata = {
-  title: "Aso Realty - Trusted Real Estate in Nigeria",
-  description: "Find your dream home or investment with Aso Realty. We offer verified listings, expert agents, and secure transactions.",
+  title: "Prosperealty - Verified Lands & Properties",
+  description: "Buy verified lands and select properties with ease and confidence.",
   alternates: {
-    canonical: "https://www.asorealty.com/",
+    canonical: "https://www.prosperealty.com/",
   },
   openGraph: {
-    title: "Aso Realty - Trusted Real Estate in Nigeria",
-    description: "Find your dream home or investment with Aso Realty. We offer verified listings, expert agents, and secure transactions.",
-    url: "https://www.asorealty.com/",
+    title: "Prosperealty - Verified Lands & Properties",
+    description: "Buy verified lands and select properties with ease and confidence.",
+    url: "https://www.prosperealty.com/",
     images: [
       {
-        url: "/asologo.png",
+        url: "/prosperealtylogo.png",
         width: 800,
         height: 600,
-        alt: "Aso Realty Logo",
+        alt: "Prosperealty Logo",
       },
     ],
-    siteName: "Aso Realty",
+    siteName: "Prosperealty",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Aso Realty - Trusted Real Estate in Nigeria",
-    description: "Find your dream home or investment with Aso Realty.",
-    images: ["/asologo.png"],
+    title: "Prosperealty - Verified Lands & Properties",
+    description: "Buy verified lands and select properties with ease and confidence.",
+    images: ["/prosperealtylogo.png"],
   },
 };
 
@@ -43,12 +43,11 @@ export default function Home() {
     <div className="min-h-screen relative">
       <div className="">
         <Hero />
-        <StatsComponent />
         <About />
-        <VisionMissionComponent />
+        <VisionMissionComponent />      
         <FeaturedPropertiesSection />
-        <WhyChooseAsoRealty />
-        <ContactSection />
+        <StatsComponent />      
+          <ContactSection />
         <Footer />
       </div>
     </div>

@@ -15,7 +15,7 @@ export default function ContactHeroSection() {
                 <Image
                     width={1920}
                     height={1080}
-                    src="/image1.jpg"
+                    src="/bedroom3.jpg"
                     alt="Contact Us background image"
                     className="w-full h-full object-cover"
                     priority
@@ -57,7 +57,7 @@ export default function ContactHeroSection() {
           We&apos;d love to hear from you. Reach out today and let us know how we can help.
         </motion.p> */}
                 <motion.div
-                    className="w-24 h-1 bg-gradient-to-r from-[#08194A] to-red-600 mx-auto rounded-full mt-4"
+                    className="w-24 h-1 bg-gradient-to-r from-[#1A1D20] to-[#7C9343] mx-auto rounded-full mt-4"
                     initial={{ width: 0, opacity: 0 }}
                     animate={{ width: 96, opacity: 1 }}
                     transition={{ duration: 0.7, delay: 1.15 }}

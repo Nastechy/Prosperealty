@@ -8,11 +8,11 @@ import Image from 'next/image';
 const teamMembers = [
     {
         id: 1,
-        name: "Abraham O. Azi",
-        position: "Managing Director",
-        image: "/NewGM.jpg",
+        name: "Prosper T. Nwankwo (MBA)",
+        position: "CEO",
+        image: "/CEO.jpeg",
         phone: "+234 803 761 6518",
-        email: "abrahamogo35@gmail.com",
+        email: "Prosper35@gmail.com",
         social: {
             linkedin: "Azi Abraham ",
             twitter: "Azi Abraham ",
@@ -22,9 +22,23 @@ const teamMembers = [
     },
     {
         id: 2,
-        name: "Chukwuemeka Udeh Elijah",
-        position: "General Manager",
-        image: "/NewMD.jpg",
+        name: "Bon Collins Udeh",
+        position: "GENERAL MANAGER",
+        image: "/GMProspe.jpeg",
+        phone: "+234 803 410 9687",
+        email: "emekaelijah545@gmail.com",
+        social: {
+            linkedin: "emmyeli_jah",
+            twitter: "emmyeli_jah",
+            instagram: "emmyeli_jah",
+            facebook: "emmyeli_jah"
+        }
+    },
+    {
+        id: 3,
+        name: "CHIBUKE .E",
+        position: "HR/ADMIN MANAGER",
+        image: "/HRProspe.jpeg",
         phone: "+234 803 410 9687",
         email: "emekaelijah545@gmail.com",
         social: {
@@ -78,12 +92,12 @@ const OurTeamSection = () => (
                 <p className="text-gray-600 text-base md:text-lg mb-2 max-w-2xl mx-auto">
                     Our team is dedicated to delivering excellence in every aspect of our work.
                 </p>
-                <div className="w-20 h-1 bg-gradient-to-r from-red-500 to-[#08194A] mx-auto rounded-full"></div>
-            </motion.div>
+                <div className="w-24 h-1 bg-gradient-to-r from-[#1A1D20] to-[#7C9343] mx-auto rounded-full"></div>
+                </motion.div>
 
             <motion.div
                 // className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
-                className="grid grid-cols-1 md:grid-cols-2 gap-16"
+                className="grid grid-cols-1 md:grid-cols-3 gap-16"
 
                 variants={containerVariants}
                 initial="hidden"
@@ -100,7 +114,7 @@ const OurTeamSection = () => (
                         className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
                     >
                         <div className="relative group flex justify-center mt-4 mb-4" >
-                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-full bg-[#981314]/30 blur-2xl z-0" />
+                            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-40 h-40 rounded-full bg-[#7C9343]/30 blur-2xl z-0" />
 
                             <motion.div
                                 className="w-36 h-36 rounded-full border-4 border-white shadow-xl bg-gray-100 overflow-hidden z-10 relative flex items-center justify-center"
@@ -169,24 +183,24 @@ const OurTeamSection = () => (
                                 <h3 className="text-[16px] font-bold text-gray-900 mb-1 tracking-wide">
                                     {member.name.toUpperCase()}
                                 </h3>
-                                <p className="text-[#981314] font-semibold text-sm">{member.position}</p>
+                                <p className="text-[#7C9343] font-semibold text-sm">{member.position}</p>
                             </div>
                             {/* Contact */}
                             <div className="space-y-1 text-center">
                                 <div className="flex items-center justify-center space-x-2">
-                                    <Phone className="w-4 h-4 text-[#981314]" />
+                                    <Phone className="w-4 h-4 text-[#7C9343]" />
                                     <a
                                         href={`tel:${member.phone}`}
-                                        className="text-gray-700 hover:text-[#981314] text-sm"
+                                        className="text-gray-700 hover:text-[#7C9343] text-sm"
                                     >
                                         {member.phone}
                                     </a>
                                 </div>
                                 <div className="flex items-center justify-center space-x-2">
-                                    <Mail className="w-4 h-4 text-[#981314]" />
+                                    <Mail className="w-4 h-4 text-[#7C9343]" />
                                     <a
                                         href={`mailto:${member.email}`}
-                                        className="text-gray-700 hover:text-[#981314] text-sm truncate"
+                                        className="text-gray-700 hover:text-[#7C9343] text-sm truncate"
                                     >
                                         {member.email}
                                     </a>
@@ -213,7 +227,7 @@ const OurTeamSection = () => (
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.6, delay: 1.2 }}
                 >
-                    <button className="bg-[#08194A] text-[13px] cursor-pointer text-white px-8 py-3 rounded-lg font-bold hover:bg-[#981314] transition-colors duration-300 shadow-lg">
+                    <button className="bg-[#1A1D20] text-[13px] cursor-pointer text-white px-8 py-3 rounded-lg font-bold hover:bg-[#7C9343] transition-colors duration-300 shadow-lg">
                         Contact Us
                     </button>
                 </motion.div>
