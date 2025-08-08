@@ -138,11 +138,11 @@ export default function FeaturedPropertiesSection() {
                   <div className="font-semibold mb-2">Contact Agent</div>
                   <div className="flex items-center mb-1">
                     <Mail className="w-4 h-4 mr-2 text-[#7C9343]" />
-                    <span className="text-gray-800 text-sm">asorealtylimited@gmail.com</span>
+                    <span className="text-gray-800 text-sm">prosperealtycompany@gmail.com</span>
                   </div>
                   <div className="flex items-center">
                     <Phone className="w-4 h-4 mr-2 text-[#7C9343]" />
-                    <span className="text-gray-800 text-sm">08037616518, 08034109687</span>
+                    <span className="text-gray-800 text-sm">+234 813 524 6089</span>
                   </div>
                 </div>
               </div>

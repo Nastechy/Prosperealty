@@ -53,3 +53,12 @@ export default function Home() {
   );
 }
 
+
+
+// DIQSA’S COURT
+// Location: Femi Gbajabiamila’s crescent Jahi After H-Medix
+// Status: Semi – Finished and Finished
+// House Type: 3 unit of 3-bedroom block of flat and 3 unit of 2bedroom block of flat
+// Price: finished 3-bedroom 120M and 2-bedroom 110M
+// Semi – Finished 3-bedroom 80M
+// Facilities: Security, help desk, electricity and water supply

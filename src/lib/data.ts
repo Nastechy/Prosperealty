@@ -14,51 +14,75 @@ export type Property = {
 export const properties: Property[] = [
   {
     id: 1,
-    title: "Pearlview Residences Apo, Waru ",
-    location: "Apo",
+    title: "Stefanos Springs Estate ",
+    location: "After Nigeria Ghana International School, Life Camp",
     rating: 4.8,
     reviews: 348,
-    area: "250 sqm, 350sqm, 450sqm,",
-    images: ["/Building2.jpg", "/Building2.jpg", "/Building2.jpg"],
+    area: "Semi-finished",
+    images: ["/bedroom3.jpg", "/bedroom3.jpg", "/bedroom3.jpg"],
     tagColor: "bg-red-500",
-    description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
+    description: " 2 Bedroom Block of Flat."
   },
   {
     id: 2,
-    title: "Linkside City ",
-    location: "Pyakasa",
+    title: "Heritage Hills ",
+    location: "River Park Estate Lugbe",
     rating: 4.9,
     reviews: 256,
-    area: "250 sqm, 350sqm, 450sqm,",
-    images: ["/Building12.jpg", "/Building12.jpg", "/Building12.jpg"],
+    area: "Semi Finished, Fully Finished",
+    images: ["/newimage.jpg", "/Building12.jpg", "/newimage.jpg"],
     tagColor: "bg-green-500",
-    description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
+    description: "Security, help desk, electricity and water supply  ."
   },
   {
     id: 3,
-    title: "Casa Moderna",
-    location: "Kuje",
-    rating: 4.7,
-    reviews: 189,
-    area: "250 sqm, 350sqm, 450sqm,",
-    images: ["/Building6.jpg", "/Building6.jpg", "/Building6.jpg"],
+    title: "Stefanos Springs Estate ",
+    location: "After Nigeria Ghana International School, Life Camp",
+    rating: 4.8,
+    reviews: 348,
+    area: "Semi-finished",
+    images: ["/bedroom1.jpg", "/bedroom1.jpg", "/bedroom1.jpg"],
     tagColor: "bg-red-500",
-    description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
-  },
-  {
-    id: 4,
-    title: "Dynasty City Estate Guzape 2",
-    location: "Guzape",
-    rating: 4.5,
-    reviews: 298,
-    area: "250 sqm, 350sqm, 450sqm,",
-    images: ["/Building3.jpg", "/Building3.jpg", "/Building3.jpg"],
-    tagColor: "bg-red-500",
-    description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
+    description: " 3 Bedroom Block of Flat."
   },
 
   {
+    id: 4,
+    title: "LifeBricks Court Duboyi",
+    location: " Lokogoma after suncity estate ",
+    rating: 4.7,
+    reviews: 189,
+    area: "Semi – Finished, Fully finished",
+    images: ["/lifecity.jpeg", "/lifecity.jpeg", "/lifecity.jpeg"],
+    tagColor: "bg-red-500",
+    description: " Security, help desk, electricity and water supply"
+  },
+  {
     id: 5,
+    title: "Stefanos Springs Estate ",
+    location: "After Nigeria Ghana International School, Life Camp",
+    rating: 4.8,
+    reviews: 348,
+    area: "Semi-finished",
+    images: ["/bedroom2.jpg", "/bedroom2.jpg", "/bedroom2.jpg"],
+    tagColor: "bg-red-500",
+    description: "  5 Bedroom Terrace Duplex."
+  },
+
+  {
+    id: 6,
+    title: "Diqsa’a Court",
+    location: "Femi Gbajabiamila’s crescent Jahi After H-Medix",
+    rating: 4.5,
+    reviews: 298,
+    area: "Semi – Finished, Fully finished",
+    images: ["/estate3.jpg", "/estate3.jpg", "/estate3.jpg"],
+    tagColor: "bg-red-500",
+    description: "3 unit of 3-bedroom block of flat, 3 unit of 2-bedroom block of flat"
+  },
+
+  {
+    id: 7,
     title: "Grandeur City Aso. Ext",
     location: "Asokoro Ext.",
     rating: 4.8,
@@ -69,7 +93,7 @@ export const properties: Property[] = [
     description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
   },
   {
-    id: 6,
+    id: 8,
     title: "Royal Hills Aso. Ext",
     location: "Asokoro Ext.",
     rating: 4.4,
@@ -80,7 +104,7 @@ export const properties: Property[] = [
     description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
   },
   {
-    id: 7,
+    id: 9,
     title: "Apo Topaz (Tafyi)",
     location: "Apo",
     rating: 4.3,
@@ -91,7 +115,7 @@ export const properties: Property[] = [
     description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
   },
   {
-    id: 8,
+    id: 10,
     title: "Wingate Estate",
     location: "Kuje",
     rating: 4.9,
@@ -102,7 +126,7 @@ export const properties: Property[] = [
     description: "These has different sizes, 250sqm for terrace duplex, 350sqm for semi-detached duplex, 450sqm for penthouses, 550sqm for fully detached duplex & 1000sqm for block of flat."
   },
   {
-    id:9,
+    id:11,
     title: "Primlux Estate Apo",
     location: "Apo",
     rating: 4.2,
