@@ -45,7 +45,7 @@ export default function Home() {
         <About />
         <VisionMissionComponent />      
         <FeaturedPropertiesSection />
-        <StatsComponent />      
+        {/* <StatsComponent />       */}
           <ContactSection />
         <Footer />
       </div>
