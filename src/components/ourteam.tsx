@@ -11,7 +11,7 @@ const teamMembers = [
     name: "Prosper C Obi",
     position: "MANAGING DIRECTOR",
     image: "/GMProspe.jpeg",
-    phone: "+234 803 761 6518",
+    phone: "+234 813 524 6089",
     email: "Md@prosperealty.com",
   },
   {
@@ -19,7 +19,7 @@ const teamMembers = [
     name: "Bon Collins Udeh",
     position: "GENERAL MANAGER",
     image: "/Collins.jpeg",
-    phone: "+234 803 410 9687",
+    phone: "+234 806 763 7961",
     email: "Gm@prosperealty.com",
   },
   {
@@ -27,7 +27,7 @@ const teamMembers = [
     name: "CHIBUKE .E",
     position: "HR/ADMIN MANAGER",
     image: "/HRProspe.jpeg",
-    phone: "+234 803 410 9687",
+    phone: "+234 703 443 1970",
     email: "Admin@prosperealty.com",
   },
 ];
