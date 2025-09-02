@@ -9,12 +9,11 @@ import Image from "next/image";
 
 export default function FeaturedPropertiesSection() {
   const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
-  const [sliceCount, setSliceCount] = useState(4); // default to 4
+  const [sliceCount, setSliceCount] = useState(4); 
   const router = useRouter();
   const closeModal = () => setSelectedProperty(null);
 
   useEffect(() => {
-    // Helper to detect small screen
     const handleResize = () => {
       if (window.innerWidth < 768) {
         setSliceCount(2);
@@ -22,7 +21,7 @@ export default function FeaturedPropertiesSection() {
         setSliceCount(4);
       }
     };
-    handleResize(); // on mount
+    handleResize(); 
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -92,9 +91,9 @@ export default function FeaturedPropertiesSection() {
         <div className="text-center mt-10 md:mt-16">
           <button
             className="bg-[#7C9343] text-[13px] cursor-pointer text-white px-8 py-3 rounded-[5px] font-bold hover:bg-[#1A1D20] transition-colors duration-200"
-            onClick={() => router.push("/properties")}
+            onClick={() => router.push("/properties/houses")}
           >
-            View All Properties
+            View All Houses
           </button>
         </div>
       </div>

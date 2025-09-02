@@ -97,13 +97,25 @@ const OurTeamSection = () => (
                 }}
                 transition={{ duration: 0.35, ease: "easeOut" }}
               >
-                <Image
+                {/* <Image
                   height={200}
                   width={200}
                   src={member.image}
                   alt={member.name}
                   priority
                   className="w-full h-full object-contain transition-all duration-300"
+                  style={{ aspectRatio: "1 / 1" }}
+                  draggable={false}
+                /> */}
+
+                <Image
+                  height={200}
+                  width={200}
+                  src={member.image}
+                  alt={member.name}
+                  priority={member.id === 1}
+                  className={`w-full h-full object-cover transition-transform duration-300 ${member.id !== 1 ? "scale-110 object-top" : ""
+                    }`}
                   style={{ aspectRatio: "1 / 1" }}
                   draggable={false}
                 />
